@@ -12,3 +12,6 @@ imports: [
 
 4. 然后就可以使用了参考api文档
 http://valor-software.com/ng2-charts/
+
+
+注意：如果使用systemjs.config.js那么就要配置map和packages, 如果是会用angular cli不用配置
