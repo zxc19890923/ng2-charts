@@ -9,9 +9,14 @@ import { ChartsModule } from 'ng2-charts/ng2-charts';
 imports: [
    ChartsModule
 ]
+4. 如果使用angular-cli那么如下配置 angular-cli.json
+"scripts": [
+   "../node_modules/chart.js/dist/Chart.bundle.min.js"
+]
+有时候需要ng serve 重新启动服务，要不然会报错，坑了好久。
 
-4. 然后就可以使用了参考api文档
+5. 然后就可以使用了参考api文档
 http://valor-software.com/ng2-charts/
 
 
-注意：如果使用systemjs.config.js那么就要配置map和packages, 如果是会用angular cli不用配置
+注意：如果使用systemjs.config.js那么就要配置map和packages
